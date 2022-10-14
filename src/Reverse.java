@@ -8,7 +8,7 @@ public class Reverse {
 
     private String reverse(String word) {
         char[] copyWord = word.toCharArray();
-        String toString = CONSTANTS.EMPTY_STRING;
+        String toString = Constants.EMPTY_STRING;
         StringBuilder reversedWord = new StringBuilder(toString);
         for (int i = word.length() - 1; i > -1; i--) {
             if (Character.isLetter(copyWord[i])) {
