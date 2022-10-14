@@ -3,33 +3,42 @@ import java.util.Scanner;
 
 
 public class Main {
+    public final static String SPLIT_STRING = " ";
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите данные: ");
         String input = scanner.nextLine().trim();
-        String[] words = input.split(" ");
-        printReverseWords(words);
+        String[] words = input.split(SPLIT_STRING);
+        new Reverse().printReverseWords(words);
     }
+}
 
-    public static void printReverseWords(String[] words) {
-        for (int i = 0; i < words.length; i++) {
-        System.out.print(reverse(words[i]) + " ");
+class Reverse {
+    public void printReverseWords(String[] words) {
+        for (String word : words) {
+            String reversedWord = reverse(word);
+            System.out.print(reversedWord + " ");
         }
     }
-    public static String reverse(String word){
-        char[] arrayToReverse = word.toCharArray();
-        ArrayList<Character> reversedArray = new ArrayList<>(word.length());
-        String reversedWord = "";
+
+    private String reverse(String word) {
+        char[] copyWord = word.toCharArray();
+        String toString = "";
+        StringBuilder reversedWord = new StringBuilder(toString);
         for (int i = word.length() - 1; i > -1; i--) {
-            if (Character.isLetter(arrayToReverse[i])){
-                reversedArray.add(arrayToReverse[i]);
+            if (Character.isLetter(copyWord[i])) {
+                reversedWord.append(copyWord[i]);
             }
         }
         for (int i = 0; i < word.length(); i++) {
-            if (!(Character.isLetter(arrayToReverse[i]))){
-                reversedArray.add(i, arrayToReverse[i]);
+            if (!(Character.isLetter(copyWord[i]))) {
+                reversedWord.insert(i, copyWord[i]);
             }
-            reversedWord += reversedArray.get(i);
         }
-        return reversedWord;
+        toString = reversedWord.toString();
+        return toString;
+
     }
+
 }
