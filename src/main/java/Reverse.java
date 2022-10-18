@@ -6,7 +6,7 @@ public class Reverse {
         }
     }
 
-    private String reverse(String word) {
+    public String reverse(String word) {
         char[] copyWord = word.toCharArray();
         String toString = Constants.EMPTY_STRING;
         StringBuilder reversedWord = new StringBuilder(toString);
