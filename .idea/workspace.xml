@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c91c3b40-e7e4-4e50-959d-cee34dd9d3d2" name="Changes" comment="Add Maven">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReverseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReverseTest2.java" afterDir="false" />
+    <list default="true" id="c91c3b40-e7e4-4e50-959d-cee34dd9d3d2" name="Changes" comment="Add Maven Tests">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReverseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseTest5.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Рабочий стол/java_projects/copy/ReverseWords&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/ASUS/OneDrive/Рабочий стол/java_projects/copy/ReverseWords",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -79,7 +80,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseTest5">
+  <component name="RunManager" selected="JUnit.ReverseTest_One">
     <configuration name="ReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReverseWords" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverseTest_One" />
         <item itemvalue="JUnit.ReverseTest5" />
         <item itemvalue="JUnit.ReverseTest2" />
         <item itemvalue="JUnit.ReverseTest.reverse" />
-        <item itemvalue="JUnit.ReverseTest" />
         <item itemvalue="JUnit.ReverseTest1" />
       </list>
     </recent_temporary>
@@ -208,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666008202675</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Maven Tests">
+      <created>1666112773548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666112773548</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Maven Tests">
+      <created>1666112781567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666112781567</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReverseWords" />
     <MESSAGE value="remove ReverseWords" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove ReverseWords" />
+    <MESSAGE value="Add Maven Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Maven Tests" />
   </component>
 </project>
